@@ -1,3 +1,40 @@
+Student Performance Prediction (EONVERSE AI Intern Challenge)
+
+Overview: This project tackles the task of predicting student success (pass/fail) using the UCI Student Performance dataset. The data comes from two Portuguese high schools and includes 30 attributes – such as age, gender, study time, past grades, family background, support, and extracurricular activities – that capture students’ demographic, academic and lifestyle factors
+archive.ics.uci.edu
+. By analyzing study habits and social indicators, the goal is to build a model that forecasts whether a student will pass the final exam. The work is part of the EONVERSE AI Intern Screening Challenge (Mini ML Experiment) and is designed to demonstrate a complete machine learning pipeline from data exploration to deployment.
+
+Methods: We implement a full ML pipeline in a Google Colab notebook. After data cleaning and preprocessing (encoding categorical variables, handling missing data, etc.), we train and compare several classification models. Notably, we use Logistic Regression and Random Forest as primary algorithms. Logistic regression is a classic binary classifier that models the probability of a student passing using a sigmoid function
+geeksforgeeks.org
+. Random Forest is an ensemble method that combines the predictions of many decision trees to improve accuracy and generalization
+ibm.com
+. (Other algorithms such as decision trees and support vector machines were also explored for benchmarking.) Feature selection and hyperparameter tuning are applied to optimize each model. Throughout, we emphasize reproducibility: the Colab notebook is fully commented and provides a step-by-step walkthrough of the analysis.
+
+Evaluation: Model performance is assessed using standard classification metrics. We report accuracy, which measures the proportion of correct predictions
+geeksforgeeks.org
+, as well as precision, recall, F1-score and ROC-AUC to capture different aspects of the classifiers. The F1-score (the harmonic mean of precision and recall) is used to balance false positives and false negatives
+geeksforgeeks.org
+. For example, high recall ensures most passing students are correctly identified, while high precision means most predicted passes are truly successes. By comparing these metrics, we select the model that most reliably predicts student outcomes. Performance results (e.g. cross-validated accuracy and confusion matrices) are detailed in the report.
+
+Repository Contents: The GitHub repository is organized as follows:
+
+Google Colab Notebook: A Python notebook with the complete ML workflow (data loading, EDA, preprocessing, modeling, evaluation and visualization). It uses libraries like pandas and scikit-learn to make the analysis reproducible.
+
+PDF Report: A structured report (report.pdf) summarizing the project objective, data insights, methodology and results. It includes tables and charts that explain the findings and justify model choices.
+
+Demo Video: A link to a brief video demonstration. The video walks through the project highlights and showcases the model predictions on sample student profiles.
+
+Each component is meant to be clear and self-contained, enabling reviewers to follow the end-to-end experiment without additional setup.
+
+Keywords
+
+
+
+
+
+
+
+
 Student Performance Prediction Model
 
 This repository implements a machine learning system to predict students’ academic performance from features such as demographics, past grades, study habits, and other factors. By analyzing patterns in student data, the model can identify learners likely to underperform so that educators can intervene early. As one study notes, the ability to predict student outcomes “allows educational institutions to implement preventive measures, optimize resources, and improve decision-making”
