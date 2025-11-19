@@ -63,7 +63,6 @@ This project focuses on predicting student academic success (pass/fail and final
 .
 ├── Student Performance Regressor.ipynb   # Main ML pipeline notebook
 ├── report.pdf                           # Detailed project & results summary
-├── demo_video.mp4 (or link)             # Project demonstration video
 ├── requirements.txt                     # Python dependencies (pandas, scikit-learn, etc.)
 └── README.md                            # This file
 ```
@@ -95,7 +94,7 @@ pip install -r requirements.txt
 - Open `Student Performance Regressor.ipynb` in Jupyter or [Google Colab](https://colab.research.google.com/)
 - All steps from data load to prediction are included
 
-### 5️⃣ (Optional) View the PDF Report and Demo Video for project summary and workflow demonstration.
+### 5️⃣ View the PDF Report 
 
 ---
 
@@ -132,7 +131,7 @@ pip install -r requirements.txt
 
 ## 👩‍💻 Contributors
 
-- **Prakash-codeMaker** – Data Scientist / Developer *(update this with your actual name and contributors)*
+- **Prakash-codeMaker** –  Developer 
 
 ---
 
@@ -149,7 +148,4 @@ pip install -r requirements.txt
 - [Project inspirations and similar works on GitHub](https://github.com/)
 - Others as cited within notebook/report
 
----
-
-*Replace all placeholder sections (like video link, XX metrics) with your real values before submission.*
 
